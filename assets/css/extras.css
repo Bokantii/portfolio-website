@@ -1,0 +1,39 @@
+.mobile_app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .profile_img {
+  width: 250px;
+  height: 250px;
+} */
+.skills{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.skill{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: .5rem;
+  margin: .5rem;
+  color: black;
+  background-color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .5s ease background-color;
+}
+
+.skill:hover{
+  background-color: black;
+  color: #fff;
+}
+.technology_img{
+  width: 30px;
+  height: 30px;
+}

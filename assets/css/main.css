@@ -2457,6 +2457,7 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 3em 0;
 			width: 100%;
+			
 		}
 
 			.image.main img {
@@ -3694,6 +3695,8 @@ input, select, textarea {
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
 			width: 55em;
+			/* border: 2px solid red; */
+			text-align: left;
 		}
 
 		.wrapper.style2 {
@@ -3823,6 +3826,8 @@ input, select, textarea {
 			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
+				/* border: 1px solid orange; */
+				text-align: left;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .inner {
@@ -4164,3 +4169,5 @@ input, select, textarea {
 		}
 
 	}
+	
+
